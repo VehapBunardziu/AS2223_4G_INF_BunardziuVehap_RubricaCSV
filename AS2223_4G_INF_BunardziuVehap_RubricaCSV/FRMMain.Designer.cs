@@ -1,6 +1,6 @@
 ﻿namespace AS2223_4G_INF_BunardziuVehap_RubricaCSV
 {
-    partial class Form1
+    partial class frmMain
     {
         /// <summary>
         ///  Required designer variable.

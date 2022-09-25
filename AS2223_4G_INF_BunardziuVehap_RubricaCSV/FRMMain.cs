@@ -1,6 +1,6 @@
 namespace AS2223_4G_INF_BunardziuVehap_RubricaCSV
 {
-    public partial class Form1 : Form
+    public partial class frmMain : Form
     {
         //variabili globali che mi salvano i nomi, cognomi e citta
         static string[] Nome = new string[1000]; 
@@ -10,7 +10,7 @@ namespace AS2223_4G_INF_BunardziuVehap_RubricaCSV
         static int nRighe;
         //variabile di stato che mi dice se abbiamo scelto un file sì o no. 
         static bool Scelto = false;
-        public Form1()
+        public frmMain()
         {
             InitializeComponent();
         }
