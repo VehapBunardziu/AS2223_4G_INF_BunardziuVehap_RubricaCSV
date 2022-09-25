@@ -36,7 +36,7 @@
             this.TXT_Cognome = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.BTN_Visualizza = new System.Windows.Forms.Button();
-            this.LST_Elenco = new System.Windows.Forms.TextBox();
+            this.LST_Elenco = new System.Windows.Forms.ListBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -119,10 +119,11 @@
             // 
             // LST_Elenco
             // 
-            this.LST_Elenco.Location = new System.Drawing.Point(22, 242);
-            this.LST_Elenco.Multiline = true;
+            this.LST_Elenco.FormattingEnabled = true;
+            this.LST_Elenco.ItemHeight = 15;
+            this.LST_Elenco.Location = new System.Drawing.Point(22, 239);
             this.LST_Elenco.Name = "LST_Elenco";
-            this.LST_Elenco.Size = new System.Drawing.Size(716, 196);
+            this.LST_Elenco.Size = new System.Drawing.Size(716, 184);
             this.LST_Elenco.TabIndex = 5;
             // 
             // Form1
@@ -155,6 +156,6 @@
         private TextBox TXT_Cognome;
         private Label label2;
         private Button BTN_Visualizza;
-        private TextBox LST_Elenco;
+        private ListBox LST_Elenco;
     }
 }
