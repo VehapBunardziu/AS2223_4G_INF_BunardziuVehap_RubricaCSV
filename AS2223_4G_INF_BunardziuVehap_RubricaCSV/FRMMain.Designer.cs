@@ -84,7 +84,8 @@
             this.CBX_Scelta.Items.AddRange(new object[] {
             "Contiene",
             "Inizia",
-            "Finisce"});
+            "Finisce",
+            "Stampa Tutto"});
             this.CBX_Scelta.Location = new System.Drawing.Point(515, 36);
             this.CBX_Scelta.Name = "CBX_Scelta";
             this.CBX_Scelta.Size = new System.Drawing.Size(112, 23);
