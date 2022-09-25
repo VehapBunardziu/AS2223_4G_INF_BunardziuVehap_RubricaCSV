@@ -14,7 +14,15 @@ namespace AS2223_4G_INF_BunardziuVehap_RubricaCSV
             {
                 TXT_File.Text = FinestraFile.FileName; //.FileName ottiene l'indirizzo del file selezionato sulla finestra
             }
+
             
+        }
+
+        private void BTN_Visualizza_Click(object sender, EventArgs e)
+        {
+            string Cognome = TXT_Cognome.Text; //Legge cosa ho scritto sulla seconda textbox
+            string SceltaCombobox = CBX_Scelta.Text; //legge cosa ho scelto nella combobox 
+
         }
     }
 } 

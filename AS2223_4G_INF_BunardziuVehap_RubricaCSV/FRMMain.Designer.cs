@@ -32,7 +32,7 @@
             this.BTN_File = new System.Windows.Forms.Button();
             this.TXT_File = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.CBX_Scelta = new System.Windows.Forms.ComboBox();
             this.TXT_Cognome = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.BTN_Visualizza = new System.Windows.Forms.Button();
@@ -68,7 +68,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.CBX_Scelta);
             this.groupBox1.Controls.Add(this.TXT_Cognome);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Location = new System.Drawing.Point(69, 87);
@@ -78,17 +78,17 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Filtri di Ricerca";
             // 
-            // comboBox1
+            // CBX_Scelta
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.CBX_Scelta.FormattingEnabled = true;
+            this.CBX_Scelta.Items.AddRange(new object[] {
             "Contiene",
             "Inizia",
             "Finisce"});
-            this.comboBox1.Location = new System.Drawing.Point(515, 36);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(112, 23);
-            this.comboBox1.TabIndex = 2;
+            this.CBX_Scelta.Location = new System.Drawing.Point(515, 36);
+            this.CBX_Scelta.Name = "CBX_Scelta";
+            this.CBX_Scelta.Size = new System.Drawing.Size(112, 23);
+            this.CBX_Scelta.TabIndex = 2;
             // 
             // TXT_Cognome
             // 
@@ -108,12 +108,13 @@
             // 
             // BTN_Visualizza
             // 
-            this.BTN_Visualizza.Location = new System.Drawing.Point(345, 193);
+            this.BTN_Visualizza.Location = new System.Drawing.Point(352, 193);
             this.BTN_Visualizza.Name = "BTN_Visualizza";
             this.BTN_Visualizza.Size = new System.Drawing.Size(75, 23);
             this.BTN_Visualizza.TabIndex = 4;
             this.BTN_Visualizza.Text = "Visualizza";
             this.BTN_Visualizza.UseVisualStyleBackColor = true;
+            this.BTN_Visualizza.Click += new System.EventHandler(this.BTN_Visualizza_Click);
             // 
             // LST_Elenco
             // 
@@ -149,7 +150,7 @@
         private Button BTN_File;
         private TextBox TXT_File;
         private GroupBox groupBox1;
-        private ComboBox comboBox1;
+        private ComboBox CBX_Scelta;
         private TextBox TXT_Cognome;
         private Label label2;
         private Button BTN_Visualizza;
