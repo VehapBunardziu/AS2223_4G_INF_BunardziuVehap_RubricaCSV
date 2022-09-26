@@ -63,6 +63,7 @@
             // 
             this.TXT_File.Location = new System.Drawing.Point(117, 34);
             this.TXT_File.Name = "TXT_File";
+            this.TXT_File.ReadOnly = true;
             this.TXT_File.Size = new System.Drawing.Size(540, 23);
             this.TXT_File.TabIndex = 2;
             // 
@@ -126,7 +127,7 @@
             this.LST_Elenco.Size = new System.Drawing.Size(716, 184);
             this.LST_Elenco.TabIndex = 5;
             // 
-            // Form1
+            // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -137,7 +138,7 @@
             this.Controls.Add(this.TXT_File);
             this.Controls.Add(this.BTN_File);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "frmMain";
             this.Text = "Form1";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
